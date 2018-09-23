@@ -1,0 +1,7 @@
+[package]
+name = "num_types"
+version = "0.1.0"
+authors = ["Johan Burell <johan.burell@gmail.com>"]
+
+[dependencies]
+typename = "0.1.0"
