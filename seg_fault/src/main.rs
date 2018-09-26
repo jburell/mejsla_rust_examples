@@ -1,7 +1,7 @@
-fn borrow_local_value() -> &String {
-    &String::from("Hello world!")
+fn get_boxed_value() -> Box<String> {
+    Box::new(String::from("Hello world!"))
 }
 
 fn main() {
-    println!("The borrowed value: {}", borrow_local_value());
+    println!("The boxed value: {}", get_boxed_value());
 }
