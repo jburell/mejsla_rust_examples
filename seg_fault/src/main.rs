@@ -1,7 +1,9 @@
-fn borrow_local_value() -> &String {
-    &String::from("Hello world!")
+fn borrow_external_value(s: &mut String) -> &mut String {
+    s.push_str("world!");
+    s
 }
 
 fn main() {
-    println!("The borrowed value: {}", borrow_local_value());
+    let mut s = String::from("Hello ");
+    println!("The borrowed value: {}", borrow_external_value(&mut s));
 }
