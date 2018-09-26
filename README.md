@@ -1,4 +1,5 @@
 # Mejsla Step Up: Rust
+Exempelkod för denna presentation: https://slides.com/burre83/rust-why-11
 
 ## Så här kommer du igång
 1) Gå till www.rustup.rs och hämta installeraren
